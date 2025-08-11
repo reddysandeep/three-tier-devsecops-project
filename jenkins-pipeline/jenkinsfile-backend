@@ -92,7 +92,7 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "three-tier-devsecops-project"
-                GIT_USER_NAME = "codewithmuh"
+                GIT_USER_NAME = "reddysandeep"
             }
             steps {
                 dir('kubernetes-manifests/backend') {
